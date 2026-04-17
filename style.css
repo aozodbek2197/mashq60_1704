@@ -1,0 +1,25 @@
+/* 1-mashq */
+.box {
+    will-change: transform;
+}
+/* 2-mashq */
+html {
+    scroll-padding-top: 100px;
+}
+/* 3-mashq */
+img {
+    object-position: top;
+}
+/* 4-mashq */
+p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/* 5-mashq */
+p {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
